@@ -67,8 +67,8 @@
         const tg = window.Telegram.WebApp;
         tg.expand();
 
-        const GET_INFO_URL = 'https://n8n-dev-uat.agilesoftgroup.com/webhook/otp-get-info';
-        const WEBHOOK_URL  = 'https://n8n-dev-uat.agilesoftgroup.com/webhook/otp-receiver';
+        const GET_INFO_URL = 'https://n8n-ags.agilesoftgroup.com/webhook/otp-get-info';
+        const WEBHOOK_URL  = 'https://n8n-ags.agilesoftgroup.com/webhook/otp-receiver';
 
         const startParam = tg.initDataUnsafe?.start_param || '';
         const urlParams  = new URLSearchParams(window.location.search);
